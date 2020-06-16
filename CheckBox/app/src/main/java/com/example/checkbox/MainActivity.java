@@ -45,15 +45,17 @@ public class MainActivity extends AppCompatActivity {
                     totamt+=100;
                 }
                 result.append("\nTotal : Rs"+totamt);
-
+                totamt = 0;
                 Toast.makeText(getApplicationContext(),result.toString(),Toast.LENGTH_LONG).show();
             }
         });
-        buttonOrder.setOnClickListener(new View.OnClickListener() {
+/*
+       buttonOrder.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 total.setText(totamt);
             }
         });
+*/
     }
 }
