@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Get Help</string>
+    <string name="title">\t\t\t\t\t\t\t\t\t\tGet\nHelp Online</string>
+    <string name="website">Visit Us</string>
+    <string name="map">Locate Us</string>
+    <string name="call">Call Us</string>
+    <string name="email">Mail Us</string>
+    <string name="note">Thank You!!!!</string>
+    <string name="login">Login</string>
+    <string name="hint1">Username</string>
+    <string name="hint2">Password</string>
+
+
+</resources>
