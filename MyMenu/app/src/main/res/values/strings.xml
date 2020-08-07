@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">MenuApp</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="save">Save</string>
+    <string name="sub1">Help</string>
+    <string name="sub2">Mail</string>
+    <string name="cont">Contact</string>
+</resources>

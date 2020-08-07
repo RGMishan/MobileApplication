@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/it1"
+        android:checkable="false"
+        android:icon="@mipmap/ic_launcher"
+        android:title="@string/open" />
+
+    <item
+        android:id="@+id/it3"
+        android:icon="@android:drawable/ic_lock_idle_alarm"
+        android:title="@string/save" />
+
+    <item
+        android:id="@+id/it2"
+        android:icon="@android:drawable/ic_input_add"
+        android:title="@string/close"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/item"
+        android:title="@string/cont">
+        <menu>
+            <item android:id="@+id/submenu1"
+                android:title="@string/sub1"/>
+
+            <item android:id="@+id/submenu2"
+                android:title="@string/sub2"/>
+        </menu>
+
+    </item>
+</menu>

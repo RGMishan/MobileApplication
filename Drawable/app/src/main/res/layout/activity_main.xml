@@ -13,7 +13,7 @@
         android:layout_gravity="center"
         android:text="@string/app_name"
         android:textAlignment="center"
-        android:textColor="@color/colorBlack"
+        android:textColor="#E80F0F"
         android:textSize="25sp"
         android:textStyle="bold" />
 
