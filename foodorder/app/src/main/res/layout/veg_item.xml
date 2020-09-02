@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FBFFFFFF">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="353dp"
+        android:layout_height="422dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <CheckBox
+                android:id="@+id/veg_burger"
+                android:layout_width="166dp"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/aclonica"
+                android:gravity="center"
+                android:text="@string/vbur"
+                android:textColor="#FFC107"
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/burger"
+                android:layout_width="0dp"
+                android:layout_height="93dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/burger" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <CheckBox
+                android:id="@+id/veg_pizza"
+                android:layout_width="163dp"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/aclonica"
+                android:gravity="center"
+                android:text="@string/vpizza"
+                android:textColor="#FFC107"
+                android:textSize="18sp" />
+
+            />
+
+            <ImageView
+                android:id="@+id/pizza"
+                android:layout_width="0dp"
+                android:layout_height="93dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/pizza" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <CheckBox
+                android:id="@+id/ff"
+                android:layout_width="163dp"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/aclonica"
+                android:gravity="center"
+                android:text="@string/fries"
+                android:textColor="#FFC107"
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/fries"
+                android:layout_width="0dp"
+                android:layout_height="93dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/french" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <CheckBox
+                android:id="@+id/drink"
+                android:layout_width="163dp"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/aclonica"
+                android:gravity="center"
+                android:text="@string/coffee"
+                android:textColor="#FFC107"
+                android:textSize="18sp" />
+            />
+
+            <ImageView
+                android:id="@+id/coffee"
+                android:layout_width="0dp"
+                android:layout_height="93dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/coffee" />
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="156dp"
+        android:layout_height="99dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.937"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.912"
+        app:srcCompat="@drawable/next" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="160dp"
+        android:layout_height="81dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.115"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.904"
+        app:srcCompat="@drawable/back" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="282dp"
+        android:layout_height="34dp"
+        android:fontFamily="@font/aclonica"
+        android:textColor="#FF9800"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.143"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.081"
+        tools:text="@string/select" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

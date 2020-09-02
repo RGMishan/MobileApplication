@@ -49,13 +49,5 @@ public class MainActivity extends AppCompatActivity {
                 Toast.makeText(getApplicationContext(),result.toString(),Toast.LENGTH_LONG).show();
             }
         });
-/*
-       buttonOrder.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                total.setText(totamt);
-            }
-        });
-*/
     }
 }

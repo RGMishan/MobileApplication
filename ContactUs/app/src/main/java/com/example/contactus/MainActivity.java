@@ -29,13 +29,13 @@ public class MainActivity extends AppCompatActivity {
         String[] s = {"abc@gmail.com","xyz@gmail.com"};
         i.putExtra(Intent.EXTRA_EMAIL, s);
         i.putExtra(Intent.EXTRA_SUBJECT,"Help Needed");
-        i.putExtra(Intent.EXTRA_TEXT, "Hey I need some help. ...");
+        i.putExtra(Intent.EXTRA_TEXT, "Hey I need some help with my order. ...");
         i.setType("message / rfc822"); //setting MIME Email Multipurpose Internet Mail Extensions
         Intent chooser = Intent.createChooser(i,"Launch Email");
         startActivity(chooser);
     }
     public void webSiteClicked(View view){
-        Intent intent = new Intent(Intent.ACTION_VIEW).setData(Uri.parse("https://www.myntra.com")) ;
+        Intent intent = new Intent(Intent.ACTION_VIEW).setData(Uri.parse("www.foodmandu.com")) ;
         Intent chooser = Intent.createChooser(intent, "Choose a  browser");
         startActivity(chooser);
     }
@@ -53,7 +53,6 @@ public class MainActivity extends AppCompatActivity {
         Intent chooser = Intent.createChooser(intent, "Choose the app to view map");
         startActivity(chooser);
     }
-
     public void mailClicked(View view){
         Intent intent = new Intent(Intent.ACTION_VIEW);
         intent.setData(Uri.parse("email: mishanregmi@gmail.com"));
@@ -61,5 +60,4 @@ public class MainActivity extends AppCompatActivity {
         startActivity(chooser);
     }
     */
-
     }

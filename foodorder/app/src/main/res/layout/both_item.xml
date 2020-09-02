@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#191818">
+
+
+    <LinearLayout
+        android:layout_width="336dp"
+        android:layout_height="515dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginBottom="150dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <CheckBox
+                android:id="@+id/paneer_burger"
+                android:layout_width="166dp"
+                android:layout_height="70dp"
+                android:fontFamily="@font/aclonica"
+                android:gravity="center"
+                android:text="@string/vbur"
+                android:textColor="#FFC107"
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/burger1"
+                android:layout_width="122dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/burger" />
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <CheckBox
+                android:id="@+id/mush_pizza"
+                android:layout_width="163dp"
+                android:layout_height="66dp"
+                android:fontFamily="@font/aclonica"
+                android:gravity="center"
+                android:text="@string/vpizza"
+                android:textColor="#FFC107"
+                android:textSize="18sp" />
+
+            />
+
+            <ImageView
+                android:id="@+id/pizza1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/pizza" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <CheckBox
+                android:id="@+id/vfries"
+                android:layout_width="163dp"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/aclonica"
+                android:gravity="center"
+                android:text="@string/fries"
+                android:textColor="#FFC107"
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/fries"
+                android:layout_width="0dp"
+                android:layout_height="70dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/french" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <CheckBox
+                android:id="@+id/nburger"
+                android:layout_width="166dp"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/aclonica"
+                android:gravity="center"
+                android:text="@string/nbur"
+                android:textColor="#FFC107"
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/burger"
+                android:layout_width="0dp"
+                android:layout_height="70dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/burger" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <CheckBox
+                android:id="@+id/npizza"
+                android:layout_width="163dp"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/aclonica"
+                android:gravity="center"
+                android:text="@string/npizza"
+                android:textColor="#FFC107"
+                android:textSize="18sp" />
+
+            />
+
+            <ImageView
+                android:id="@+id/pizza"
+                android:layout_width="0dp"
+                android:layout_height="70dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/pizza" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <CheckBox
+                android:id="@+id/r_chicken"
+                android:layout_width="163dp"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/aclonica"
+                android:gravity="center"
+                android:text="@string/chicken"
+                android:textColor="#FFC107"
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/chicken"
+                android:layout_width="0dp"
+                android:layout_height="70dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/chicken" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <CheckBox
+                android:id="@+id/cofe"
+                android:layout_width="163dp"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/aclonica"
+                android:gravity="center"
+                android:text="@string/coffee"
+                android:textColor="#FFC107"
+                android:textSize="18sp" />
+            />
+
+            <ImageView
+                android:id="@+id/img3"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/coffee" />
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/next"
+        android:layout_width="107dp"
+        android:layout_height="42dp"
+        android:background="#FFC107"
+        android:fontFamily="@font/aclonica"
+        android:text="@string/next"
+        android:textColor="#FF5722"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.825"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.921" />
+
+    <Button
+        android:id="@+id/back"
+        android:layout_width="110dp"
+        android:layout_height="45dp"
+        android:background="#FFC107"
+        android:fontFamily="@font/aclonica"
+        android:text="@string/back"
+        android:textColor="#FF5722"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.202"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.925" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="282dp"
+        android:layout_height="34dp"
+        android:fontFamily="@font/aclonica"
+        android:textColor="#FF9800"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.248"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.048"
+        tools:text="@string/select" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

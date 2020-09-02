@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Foodieez_1841060</string>
+    <string name="Veg">  Veg</string>
+    <string name="Non_veg">  Non veg</string>
+    <string name="next">Next</string>
+    <string name="Title">Foodieez</string>
+    <string name="Both">Both</string>
+    <string name="vpizza">Mushroom Pizza</string>
+    <string name="npizza">Chicken Pizza</string>
+    <string name="vbur">Paneer Burger</string>
+    <string name="nbur">Lamb Burger</string>
+    <string name="coffee">Cofee</string>
+    <string name="chicken">Roasted Chicken</string>
+    <string name="fries">French Fries</string>
+    <string name="order">Order</string>
+    <string name="back">Back</string>
+    <string name="select">Choose your Food</string>
+
+
+
+
+
+</resources>

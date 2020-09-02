@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ECE1C3"
+    android:gravity="center|center_horizontal|center_vertical"
+    android:onClick="movepage"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="350dp"
+        android:layout_height="110dp"
+        android:layout_marginBottom="15dp"
+        android:contentDescription="@string/company"
+        app:srcCompat="@android:drawable/ic_menu_help" />
+
+    <TextView
+        android:layout_width="350dp"
+        android:layout_height="103dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="15dp"
+        android:text="@string/company"
+        android:textAlignment="center"
+        android:textColor="#140CF3"
+        android:textSize="36sp" />
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="350dp"
+        android:layout_height="68dp"
+        android:layout_gravity="center|clip_vertical|top"
+        android:layout_marginBottom="20dp"
+        android:ems="10"
+        android:hint="@string/hint1"
+        android:autofillHints="@string/hint1"
+        android:inputType="textPersonName"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="351dp"
+        android:layout_height="58dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20dp"
+        android:ems="10"
+        android:hint="@string/hint2"
+        android:autofillHints="@string/hint2"
+        android:inputType="textPassword"
+        android:textColor="#1B1919"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="252dp"
+        android:layout_height="71dp"
+        android:layout_gravity="center"
+        android:onClick="movepage"
+        android:text="@string/login"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+</LinearLayout>
+

@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">GetFood</string>
+    <string name="Veg">Vegeteria Food</string>
+    <string name="Non_veg">Non Vegeterian Food</string>
+    <string name="next">Next</string>
+    <string name="Title">GetFood</string>
+    <string name="Both">Mix Food</string>
+    <string name="vpizza">Mushroom Pizza</string>
+    <string name="npizza">Chicken Pizza</string>
+    <string name="vbur">Paneer Burger</string>
+    <string name="nbur">Lamb Burger</string>
+    <string name="coffee">Coffee</string>
+    <string name="chicken">Roasted Chicken</string>
+    <string name="fries">French Fries</string>
+    <string name="order">Order</string>
+    <string name="back">Back</string>
+    <string name="select">Choose your Food</string>
+
+
+
+
+
+</resources>

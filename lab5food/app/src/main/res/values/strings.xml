@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Foodmandu_1841060</string>
+    <string name="Veg">Vegeterian</string>
+    <string name="Non_veg">Non Vegeterian</string>
+    <string name="next">Continue</string>
+    <string name="Title">Foodmandu</string>
+    <string name="Both">Both</string>
+    <string name="vpizza">Idli</string>
+    <string name="npizza">Chicken Tandoori</string>
+    <string name="vbur">Dhosa</string>
+    <string name="nbur">Fish</string>
+    <string name="coffee">Coffee</string>
+    <string name="chicken">MoMo</string>
+    <string name="fries">Vada</string>
+    <string name="order">Order</string>
+    <string name="back">Return</string>
+    <string name="select">Please Choose your Food</string>
+    <string name="title">\t\t\t\t\t\t\t\t\t\tGet\nHelp Online</string>
+    <string name="website">Visit Us</string>
+    <string name="map">Locate Us</string>
+    <string name="call">Call Us</string>
+    <string name="email">Mail Us</string>
+    <string name="note">Thank You!!!!</string>
+
+
+
+
+</resources>

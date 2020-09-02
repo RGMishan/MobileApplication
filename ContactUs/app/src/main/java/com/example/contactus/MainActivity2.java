@@ -22,7 +22,6 @@ public class MainActivity2 extends AppCompatActivity {
         password=(EditText)findViewById(R.id.password);
         button=(Button)findViewById(R.id.button);
     }
-
     public void movepage(View v)
     {
         String id = name.getText().toString();
@@ -34,7 +33,6 @@ public class MainActivity2 extends AppCompatActivity {
             startActivity(in);
 
         }
-
         else if (id.equals("") || pass.equals(""))
         {
             Toast.makeText(getBaseContext(),"Empty Credential!!!! Enter Detail",Toast.LENGTH_SHORT).show();
@@ -42,7 +40,6 @@ public class MainActivity2 extends AppCompatActivity {
         else {
             Toast.makeText(getBaseContext(),"Password Or Username Wrong",Toast.LENGTH_SHORT).show();
         }
-
     }
 }
 
