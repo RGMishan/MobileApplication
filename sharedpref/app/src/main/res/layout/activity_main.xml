@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#CABCBC"
+    android:shrinkColumns="*"
+    android:stretchColumns="*">
+
+
+    <TableRow
+        android:id="@+id/TableRow0"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal">
+
+        <TextView
+            android:id="@+id/TextName0"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="LAB CHECKING STATUS"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:textSize="20dp" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/TableRow00"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal">
+
+        <TextView
+            android:id="@+id/TextName00"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:textSize="20dp" />
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/TableRow1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal">
+
+        <TextView
+            android:id="@+id/TextName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Lab Program:"
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/EditTextName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/TableRow2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal">
+
+        <TextView
+            android:id="@+id/TextAddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Done By:"
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/EditTextAddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/TableRow3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal">
+
+        <TextView
+            android:id="@+id/TextPhone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Date"
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/EditTextPhone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="phone" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/TableRow4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal">
+
+        <TextView
+            android:id="@+id/TextNameEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Checked By:"
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/EditTextEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress" />
+    </TableRow>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/FavouritePart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Program Checked On:"
+        android:textSize="20dp" />
+
+    <RadioGroup
+        android:id="@+id/rdoFavouritePart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RadioButton
+            android:id="@+id/Morning"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_weight="0"
+            android:checked="true"
+            android:onClick="onclick"
+            android:text="Monday"
+            android:textSize="15dp" />
+
+        <RadioButton
+            android:id="@+id/Afternoon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_weight="0"
+            android:checked="true"
+            android:onClick="onclick"
+            android:text="Tuesday"
+            android:textSize="15dp" />
+
+        <RadioButton
+            android:id="@+id/Evening"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_weight="0"
+            android:checked="true"
+            android:onClick="onclick"
+            android:text="Thursday"
+            android:textSize="15dp" />
+
+        <RadioButton
+            android:id="@+id/Night"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_weight="0"
+            android:checked="true"
+            android:onClick="onclick"
+            android:text="Friday"
+            android:textSize="15dp" />
+    </RadioGroup>
+
+    <TableRow
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal">
+
+        <Button
+        android:text="SUBMIT"
+        android:textAlignment="center"
+        android:textSize="25dp"
+        android:layout_gravity="center"
+        />
+
+    </TableRow>
+</TableLayout>

@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">lab4</string>
+    <string name="Math">  Math</string>
+    <string name="Mobile_Applications">  Mobile_Applications</string>
+    <string name="History"> Geography</string>
+    <string name="select">Choose the answers</string>
+
+</resources>
